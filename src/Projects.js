@@ -49,7 +49,6 @@ export default function Projects() {
                   had to wire together with a power supply and DMX controller
                   myself. Check out a picture from the production!`,
         image: "Inherit.jpeg",
-        link: "photos",
       },
       {
         title: "Bridge2AI Summer Program",
