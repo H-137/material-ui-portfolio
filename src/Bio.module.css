@@ -1,0 +1,41 @@
+.card {
+    width: 700px;
+    margin-top: 30px;
+    height: 350px
+}
+
+.media {
+    width: 250px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.title {
+    display: flex;
+    align-items: left;
+}
+
+@media screen and (max-width: 1200px){
+    .card {
+        width: 700px;
+    }    
+}
+
+@media screen and (max-width: 745px){
+    .card {
+        width: 425px;
+    }
+    
+    .content {
+        overflow: scroll;
+        height: 300px;
+    }
+}

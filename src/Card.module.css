@@ -1,0 +1,47 @@
+.card.expanded {
+    width: 80%;
+    overflow-y: scroll;
+    z-index: 10;
+    position:fixed;
+    top: 10vh;
+    left: 10vw;
+}
+
+.card.collapsed {
+    width: 350px;
+}
+
+.media.expanded{
+    height: 60vh;
+    width: fit-content;
+    padding-top: 10px;
+}
+
+.media.collapsed{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.description.expanded{
+    display: none;
+}
+
+.description.collapsed{
+    display: block;
+}
+
+.body.expanded{
+    display: block;
+}
+
+.body.collapsed{
+    display: none;
+}
+
+.actionArea.expanded{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

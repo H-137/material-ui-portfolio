@@ -1,0 +1,49 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 30px;
+    max-width: 1200px;
+    margin-top: 30px;
+}
+
+.card-container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects > h1 {
+    margin-bottom: 0px;
+}
+
+.projects > footer > p {
+    color: grey;
+}
+
+@media screen and (max-width: 1200px){
+    .card-container {
+        /* grid of 2 items */
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media screen and (max-width: 745px){
+    .card-container {
+        /* grid of just 1 item vertical stack */
+        grid-template-columns:  1fr;
+    }
+    
+}
