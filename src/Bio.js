@@ -34,7 +34,7 @@ export default function BioCard() {
         <CardMedia
             className={styles.media}
             component="img"
-            image="Me.jpg"
+            image="me.jpg"
             alt="Random image"
             sx={{ width: "250px" }}
         />
