@@ -14,8 +14,8 @@ export default function BioCard() {
             <Typography gutterBottom variant="h5" component="div">
             About Me
             </Typography>
-            <Typography variant="body2" sx={{ color: "text.secondary" }}>
-            <p style={{ width: "75%" }}>
+            <Typography variant="body2" className={styles.text} sx={{ color: "text.secondary" }}>
+            <p>
                 Hello! My name is Matthew Leopold. I’m currently a sophomore at
                 Boston College studying Computer Science (B.S.). I aspire to be
                 a full-stack developer. Check out the rest of the site to see my
@@ -35,8 +35,7 @@ export default function BioCard() {
             className={styles.media}
             component="img"
             image="me.jpg"
-            alt="Random image"
-            sx={{ width: "250px" }}
+            alt="Image of me"
         />
         </CardContent>
       </Card>

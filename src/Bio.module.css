@@ -18,6 +18,10 @@
     overflow-y: scroll;
 }
 
+.text {
+    width: 75%
+}
+
 .title {
     display: flex;
     align-items: left;
@@ -31,11 +35,36 @@
 
 @media screen and (max-width: 745px){
     .card {
-        width: 425px;
+        width: 450px;
     }
     
     .content {
         overflow: scroll;
         height: 300px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .card {
+        width: 80%;
+        height: 100%;
+    }
+    
+    .card .media {
+        display: none;
+    }
+    
+    .content {
+        overflow: scroll;
+    }
+
+    .contentContainer {
+        align-items: center;
+        text-align: center;
+        height: 100%;
+    }
+
+    .text{
+        width: 100%;
     }
 }
