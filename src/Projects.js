@@ -181,6 +181,7 @@ export default function Projects() {
     // event.stopPropagation(); // Prevent the click from propagating to the document
     // Toggle card expanded state
     setExpandedCard((prevState) => (prevState === id ? null : id));
+    window.scrollTo(0, 0);
   };
 
   const handleClickOutside = (event) => {
