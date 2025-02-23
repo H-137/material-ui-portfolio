@@ -210,7 +210,7 @@ export default function Projects() {
             className={`${Styles.Dimmer} ${expandedCard ? Styles.expanded : 0}`}
           ></div>
           <div className="card-container">
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((id) => (
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13].map((id) => (
               <div
                 key={id}
                 ref={(el) => (cardRefs.current[id - 1] = el)} // Assign ref to each card
